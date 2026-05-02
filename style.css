@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
-    /* font-family: ; */
+    font-family: Poppins;
 }
 
 :root {
@@ -114,20 +114,21 @@ section {
 .home-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    text-align: left;
 }
 
 .home-content h1 {
-    font-size: 8rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
+    text-align: left;
 }
 
 .home-content h2 {
     margin: 1rem 0;
-    font-size: 4rem;
+    font-size: 3rem;
+    text-align: left;
 }
 
 .home-content p {
@@ -225,12 +226,12 @@ btn-group a:nth-of-type(2) {
 }
 
 .about-content h1 {
-    font-size: 7rem;
+    font-size: 4rem;
     text-align: left;
 }
 
 .about-content p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .about-content .btn {
@@ -290,7 +291,7 @@ btn-group a:nth-of-type(2) {
 
 .service-box:hover {
     background: var(--second-bg-color);
-    color: var(--main-color);
+    color: #FFFFFF;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 
