@@ -6,6 +6,13 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active')
 }
 
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.addEventListener('click', () => {
+        navbar.classList.remove('active');
+        menuIcon.classList.remove('bx-x');
+    });
+});
+
 const allVideos = document.querySelectorAll('video');
 console.log("Total video found:", allVideos.length);
 
